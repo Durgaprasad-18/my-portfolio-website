@@ -1,0 +1,293 @@
+body{
+    background-color: rgb(65, 65, 94);
+    color: white;
+}
+*{
+    margin: 0;
+    padding: auto;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px;
+    background-color: rgb(64, 43, 83);
+    color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(206, 232, 65);
+    font-size: 1.05rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 35px;
+}
+.firstsection div >{
+    width: 30%;
+}
+.leftsection{
+    margin-top: 75px;
+    align-items: center;
+    font-size: 3rem;
+    
+}
+.rightsection img{
+    width: 400px;
+    height: 450px;
+   
+}
+.name{
+    color: rgb(171, 175, 236);
+}
+#element{
+    color: rgb(171, 175, 236);
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+}
+main hr{
+    border: 0px;
+    width: 90vw;
+    background-color: rgb(151, 149, 235);
+    height: 3px;
+    margin: 60px;
+}
+main h1{
+    margin: 30px;
+}
+.rightsection img{
+    border-radius: 50%;
+}
+.secondsection p{
+    font-size:x-large;
+}
+.secondsection b{
+    color:rgb(173, 173, 236) ;
+}
+#skillslogo{
+    width: 95%;
+    height: 250px;
+    margin: 20px;
+    margin-top: 60px;
+    margin-left: 35px;
+}
+#skillslogo #logos img{
+    width: 200px;
+    height:150px;
+    display: inline-block;
+    margin: 40px;
+}
+#skillslogo h3{
+    font-size: x-large;
+    position:sticky;
+    margin-left: 135px;
+}
+.projects h3{
+    margin-left: 135px;
+    font-size: x-large;
+}
+.projects #listprojects li{
+    margin: 30px;
+    margin-left: 70px;
+    font-size: large;
+}
+.projects #listprojects p{
+    font-size: large;
+    padding: 20px;
+}
+.contact h2{
+    font-size: x-large;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+.contact {
+    position: absolute;
+    left: 40%;
+    padding-top: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+
+#links{
+    border: 1px solid black;
+
+}
+#links img{
+    width: 30px;
+    height: 30px;
+}
+/* From Uiverse.io by elisapi */ 
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    gap: 20px;
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(65, 29, 131);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: 0.3s;
+    border-radius: 30px;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128c7e;
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: 0.3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  /* From Uiverse.io by aboalsim114 */ 
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #0077be, #3b8df2);
+    border-radius: 10px;
+    overflow: hidden;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transform: rotateX(-10deg);
+    transition: all 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    animation: form-animation 0.5s ease-in-out;
+  }
+  
+  @keyframes form-animation {
+    from {
+      transform: rotateX(-30deg);
+      opacity: 0;
+    }
+  
+    to {
+      transform: rotateX(0deg);
+      opacity: 1;
+    }
+  }
+  
+  .input {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    color: rgb(255, 255, 255);
+    border: 2px solid #3b8df2;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  
+  .input::placeholder {
+    color: #fff;
+  }
+  
+  .input:hover,
+  .input:focus {
+    border-color: #3b8df2;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05) rotateY(20deg);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b8df2;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transform: rotateX(-10deg);
+    transition: all 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  
+  button:hover {
+    background-color: #0077be;
+    font-size: 17px;
+    transform: scale(1.05) rotateY(20deg) rotateX(10deg);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  
+  
